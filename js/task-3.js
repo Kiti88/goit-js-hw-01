@@ -1,11 +1,11 @@
 function getElementWidth(content, padding, border) {
   
-  var contentWidth = parseInt(content);
-  var paddingWidth = parseInt(padding);
-  var borderWidth = parseInt(border);
+  let contentWidth = parseInt(content);
+  let paddingWidth = parseInt(padding);
+  let borderWidth = parseInt(border);
   
   
-  var totalWidth = contentWidth + paddingWidth + borderWidth;
+  const totalWidth = contentWidth + paddingWidth + borderWidth;
   
   return totalWidth;
 }
